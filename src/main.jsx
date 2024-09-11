@@ -11,7 +11,7 @@ import Co_Page2 from "./pages/page2";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/React-Test2/">
       <Routes>
 
         <Route path="/" element={<App />} />
